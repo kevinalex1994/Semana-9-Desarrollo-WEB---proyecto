@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block contenido %}
+<h2>Página de Inicio</h2>
+<p>Bienvenido a la página principal de mi proyecto Flask.</p>
+{% if mensaje %}
+<p>{{ mensaje }}</p>
+{% endif %}
+{% endblock %}
